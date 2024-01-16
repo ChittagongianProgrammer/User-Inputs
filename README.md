@@ -52,16 +52,25 @@ So in summary:
 - Prints out the volume of user's 3D shape
 
 ## Shopping Cart
-This is a Python program that calculates the total price for a customer based on their purchase. Here is an explanation:
+ This is a Python program that calculates the total price for a customer based on their purchase. Here is an explanation:
 
-It first asks the user to enter the name of the product they want to buy using the input() function and stores it in the variable product.
-Next, it asks the user for the price per unit of the product using input() and converts the input to a float by wrapping it in float(). This value is stored in price.
-Then it asks the user how many units of that product they want to buy using input() and converts that to an integer by wrapping it in int(). This value gets stored in amount.
-To calculate the total price, it multiplies the number of units or amount by the price per unit and stores this in final_price.
-It prints out a message with the amount ordered and the product name using an f-string.
-Finally, it prints out the total price, formatting the float value to 2 decimal places using round() and formatting it nicely with the currency symbol using another f-string.
+1. It first asks the user to enter the name of the product they want to buy using the `input()` function and stores it in the variable `product`.
+
+2. Next, it asks the user for the price per unit of the product using `input()` and converts the input to a float by wrapping it in `float()`. This value is stored in `price`. 
+
+3. Then it asks the user how many units of that product they want to buy using `input()` and converts that to an integer by wrapping it in `int()`. This value gets stored in `amount`.
+
+4. To calculate the total price, it multiplies the number of units or `amount` by the `price` per unit and stores this in `final_price`. 
+
+5. It prints out a message with the `amount` ordered and the product name using an f-string.
+
+6. Finally, it prints out the total price, formatting the float value to 2 decimal places using `round()` and formatting it nicely with the currency symbol using another f-string.
+
 In summary, it:
-- Accepts user input for product details
+
+- Accepts user input for product details 
 - Converts values to appropriate types
-- Calculates total cost
+- Calculates total cost 
 - Prints purchase details and total price neatly formatted
+
+
